@@ -2,9 +2,27 @@
     background: red;
     width: 250px;
     height: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.memo-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .memo-image {
     width: 250px;
     height: 120px;
+}
+
+.fiszki-animation{
+    transition: 0.3s;
+    transform: rotateY(360deg);
+}
+
+.fiszki-animation2{
+    transition: 0.6s;
+    transform: rotateY(360deg);
 }
